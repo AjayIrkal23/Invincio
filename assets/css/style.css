@@ -10,6 +10,19 @@
 # General
 --------------------------------------------------------------*/
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.navbar-mobile {
+    position: fixed!important;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -741,10 +754,6 @@ section {
 
 #hero .icon-box h3 a {
     text-decoration: none !important;
-}
-
-.container-fluid {
-    position: relative;
 }
 
 .badge {
