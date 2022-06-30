@@ -100,7 +100,12 @@
                          bottom: 0;
                          z-index: 9999;
                          overflow: hidden;
-                         background: #151515;
+                     }
+                     
+                     .preloader video {
+                         object-fit: contain;
+                         height: 100vh;
+                         width: 100vw;
                      }
                      
                      #preloader:before {
