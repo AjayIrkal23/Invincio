@@ -141,6 +141,10 @@ h6 {
     }
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -693,6 +697,10 @@ section {
     opacity: 0.5;
     transition: 0.3s;
     filter: grayscale(100);
+}
+
+.swiper-slide {
+    margin-right: 180px !important;
 }
 
 .clients .swiper-slide img:hover {
@@ -1818,3 +1826,72 @@ section {
     width: 100%;
     justify-content: center;
 }
+
+#navigation_bar {
+    background-color: black;
+    padding: 0.5% 0% !important;
+}
+
+#navigation_bar a {
+    font-size: 1.5rem;
+    margin: 0 0.5%;
+}
+
+#navigation_bar .fa-brands:hover {
+    transform: scale(1.3);
+}
+
+#navigation_bar .fa-facebook {
+    transition: all 0.5s;
+}
+
+#navigation_bar .fa-facebook:hover {
+    color: #0077ff;
+    opacity: 100%;
+}
+
+#navigation_bar .fa-instagram {
+    transition: all 0.5s;
+}
+
+#navigation_bar .fa-instagram:hover {
+    color: #e95950;
+}
+
+#navigation_bar .fa-linkedin {
+    transition: all 0.5s;
+}
+
+#navigation_bar .fa-linkedin:hover {
+    color: #00a0dc;
+}
+
+#navigation_bar .width {
+    margin-left: 2%;
+    width: 35%;
+}
+
+#navigation_bar .contact-text a {
+    margin: 0 1%;
+    transition: all 1s;
+}
+
+#navigation_bar .contact-text a:hover {
+    border-bottom: 1px solid white;
+    -webkit-animation: border-line 1s;
+    animation: border-line 1s;
+}
+
+#navigation_bar .row {
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0;
+}
+
+
+/*# sourceMappingURL=index.css.map */
+
+
+}
+
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
